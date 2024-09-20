@@ -1,0 +1,116 @@
+
+
+   CSS
+   ---
+1.Used for styling HTML
+
+2.How to apply
+	-Inline CSS - style attribute
+		-Syntax : style="property :value;"
+	- Internal CSS - <style>
+		-Syntax:
+          <style>
+           selectors{
+            property: value;
+           }
+
+         </style>
+    - External CSS - USe external CSS file, we have to link css file to HTML file
+        -
+
+3.CSS Selectors - 
+
+    -tag name
+    -id
+    -class
+    -universal selectors
+    -css combinators
+        -grouping selectors- use coma
+        -(Decentent selector) - space      //not needeed
+        -(child selector )- use >
+        -(sibling selector) - ~
+        -(immediate sibiling) - +
+
+4. Box model
+    -border
+    -margin
+    -padding
+
+
+
+
+    
+---------------------------------------------------------------------------------------------------------------------
+        
+        
+        **PORTFOLIO**
+
+(FIRST PAGE)- name as "index.html"
+(second page)- name as "style.css"
+
+-pseudo class - to define a special state of an element
+
+
+
+---------------------------------------------------------------------------------------------------
+
+
+5.CSS properties
+    -float - (float elements from left or right) 
+    -position (top,left,right,bottom)
+        -static
+        -fixed
+        -absolute
+        -relative
+        -sticky
+    -z-index
+    *- flexBox :used to arrange html elements in either roe or coloumn  
+        -flex container - a parant tag which holds elements in arrangement in row or coloumn :- apply flex to parent div
+        -justufy content
+            -space around
+            -space evenly
+            -space between
+        -flex wrap
+            wrap
+            nowrap
+
+
+      -Grid: CSS property used to display elements in rows and columns, where we can fix the column width
+        -grid container: display as Grid
+        -grid-template-column/row: to set width of column/row
+            eg: grid-template-columns: repeat(2,1fr);
+        -linear gradient : i sused to set combination of colors as background
+        syntax:
+            .class{
+                background-image: linear-gradient(red, yellow);
+            }
+        - CSS animations - animamtion property, to define @keyframes
+        - Animate libraries:
+            https://animate.style
+            https://michalsnik.github.io/aos/
+        -to style scroll bar, we use webkit
+
+    ----> webhosting
+        -netlify
+        -github pages
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+       GIT & GITHUB
+       -------------
+    
+1. GIT: use to control version of a code
+2. GIT commands: 
+
+            -git status   :- used to check status of git inside the folder
+            -git init     :-used to create or initiate git repository in a folder 
+            -git add .    :- used to track all the untracked files to git
+            -git commit -m "message" :- This is used to save? store tracked files to git
+
+
+
+
+
+
